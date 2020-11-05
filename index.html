@@ -5,20 +5,95 @@
         <head>
             <meta charset="uft-8"
              <title> <h2>diseños de sitios web</h2></title> 
+             <style type="text/css">
+             * {
+                padding: 0px;
+                margin: 0px;
+            }
+              
+            #HEADER {
+                margin: auto;
+                width: 500px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            ul, ol{
+                list-style: none;
+            }
+
+            .nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+            .nav li a:hover {
+				background-color:#434343;
+			}
+
+            .nav > li {
+               float: left;
+            }
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+                
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+            </style>
+
+
 
     </head>
             <h1>ovi diseños de sitios web</h1>
         <body>
-            <nav>
-                <ul class="menu">
-                    <li> <a href="planning.html">clic aqui para ir al contenido principal</li>   </a>
-                    <li> <a href="pagina1.html">clic aqui para ir al contenido de pagina 1</li>   </a>
-                    <li> <a href="pagina2.html">clic aqui para ir al contenido de pagina 2 </li>   </a>
-                    <li>entregado por andrés camilo escobar lópez</li>
-                </ul>
-            </nav>
+           <DIV ID ="HEADER">
+            
+                    
+<ul class="nav">
+    <li> <a href="recursos.html"> principal</li>   </a>
+       <UL>
+        <li> <a href=" ">submenu1</li>   </a>
+        <li> <a href=" ">submenu2</li>   </a>
+     
+       </UL>
+   
+    <li> <a href="pagina1.html"> inicio</li>   </a>
+    <UL>
+        <li> <a href=" ">submenu1</li>   </a>
+        <li> <a href=" ">submenu2</li>   </a>
+     
+       </UL>
+    
+    <li> <a href="pagina2.html"> comseptos </li>   </a>
+    <li> <a href="recursos.html"> recursos</li>   </a>
+    
+    
+    <li>entregado por andrés camilo escobar lópez</li>
+             
+           </DIV>
 
 
 
         </body>
 </html>
+
+
+
+
